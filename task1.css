@@ -55,6 +55,9 @@ nav input[type="text"]{
 }
 header>p{
     width: 90%;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
     font-size: 70px;
     font-weight: bolder;
     text-align: center;
@@ -62,7 +65,7 @@ header>p{
     top:45% ;
     left:50%;
     transform: translate(-50%,-50%);
-    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    /* text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white; */
     text-transform: uppercase;
     
 
